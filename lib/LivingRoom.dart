@@ -26,7 +26,7 @@ class _LivingRoomState extends State<LivingRoom> {
             ),
           )),
           Card(
-            color: Color.fromRGBO(255, 255, 255, 0.8),
+            color: Colors.grey[100],
             elevation: 4,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceAround,

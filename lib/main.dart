@@ -80,7 +80,6 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
-
   getCard() {
     return Card(
       color: Color.fromRGBO(255, 255, 255, 0.4),
@@ -100,8 +99,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Switch(value: true, onChanged: (bool value) {  },
               activeColor: Colors.blue,
               ),
-            ],
-          ),
+            ],),
           Row(
             children: [
               Icon(Icons.arrow_left),
